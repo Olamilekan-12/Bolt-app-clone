@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/f5176f6a47.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Bolt App Clone</title>
+  </head>
+  <body>
+    <div class="preloader">
+      <img src="img/bolt.png" alt="" />
+    </div>
+    <div class="container" id="container">
+      <header class="header">
+        <div class="fixed-navbar">
+          <i class="fa-solid fa-bars" id="bars"></i>
+        </div>
+        <div class="nav-list" id="nav-list">
+          <div class="user-rating">
+            <div class="user-container">
+              <div class="user-icon-cont">
+                <i class="fa-solid fa-user" id="user"></i>
+              </div>
+              <div class="profile-list-cont">
+                <span>Bello</span>
+                <span>Edit profile</span>
+              </div>
+            </div>
+            <div class="rating-container">
+              <i class="fa-solid fa-star" id="star"></i>
+              <span>8.5 <span id="rating">Rating</span></span>
+            </div>
+          </div>
+          <div class="user-options">
+            <div class="card-options">
+              <i class="fa-solid fa-credit-card"></i>
+              <span>Payment</span>
+            </div>
+            <div class="card-options">
+              <i class="fa-solid fa-tag"></i>
+              <span>Promotions</span>
+            </div>
+            <div class="card-options">
+              <i class="fa-solid fa-clock"></i>
+              <span>My Trips</span>
+            </div>
+            <div class="card-options">
+              <i class="fa-solid fa-bag-shopping"></i>
+              <span>Expense Your Trips</span>
+            </div>
+            <div class="card-options">
+              <i class="fa-solid fa-circle-question"></i>
+              <span>Support</span>
+            </div>
+            <div class="card-options">
+              <i class="fa-solid fa-circle-info"></i>
+              <span>About</span>
+            </div>
+          </div>
+          <div class="optional-options">
+            <div class="card-options">
+              <i class="fa-solid fa-utensils"></i>
+              <span>About</span>
+            </div>
+            <div class="driver-option-card">
+              <span>Become a driver</span>
+              <span>Earn money on your schedule</span>
+            </div>
+          </div>
+        </div>
+      </header>
+      <section class="section" id="section">
+        <div class="hidden-input" id="hidden-input">
+          <div class="hidden-header">
+            <div class="l-side">
+              <i class="fa-solid fa-xmark" id="x-mark"></i>
+              <span>Your route</span>
+            </div>
+            <div class="r-side">
+              <i class="fa-solid fa-plus" id="add-desc"></i>
+            </div>
+          </div>
+          <div class="input-location-container">
+            <div class="input-one one">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <input
+                type="text"
+                placeholder="Search pick-up location"
+                class="input"
+              />
+              <i class="fa-solid fa-xmark"></i>
+              <i class="fa-solid fa-location-dot"></i>
+            </div>
+            <div class="add-stop"></div>
+            <div class="input-one two">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <input
+                type="text"
+                placeholder="Destination"
+                class="input destination"
+              />
+              <i class="fa-solid fa-xmark"></i>
+              <i class="fa-solid fa-location-dot"></i>
+            </div>
+          </div>
+        </div>
+        <!-- <button id="btn">hide</button> -->
+        <div class="bottom-fixed-input">
+          <div class="input-bfood">
+            <div class="input-one three" id="btn">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <input type="text" placeholder="Where to?" class="input" />
+              <i class="fa-solid fa-xmark"></i>
+              <i class="fa-solid fa-location-dot"></i>
+            </div>
+            <div class="bolt-food">
+              <span>Bolt</span>
+              <span>Food</span>
+            </div>
+          </div>
+          <div class="proceed" id="proceed">
+            <span>Proceed</span>
+          </div>
+          <div class="location">
+            <i class="fa-solid fa-location-arrow"></i>
+            <span>My Location</span>
+          </div>
+          <br />
+          <div class="location">
+            <i class="fa-solid fa-bag-shopping"></i>
+            <span>Shoprite City Mall</span>
+          </div>
+          <br />
+          <div class="location">
+            <i class="fa-solid fa-plane-departure"></i>
+            <span>Terminal 2 Muritala Airport</span>
+          </div>
+          <br />
+          <div class="location">
+            <i class="fa-solid fa-umbrella-beach"></i>
+            <span>Oniru Private Beach</span>
+          </div>
+          <br />
+          <div class="location">
+            <i class="fa-solid fa-piggy-bank"></i>
+            <span>World Bank</span>
+          </div>
+          <br />
+        </div>
+        <div class="map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2990.274257380938!2d-70.56068388481569!3d41.45496659976631!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e52963ac45bbcb%3A0xf05e8d125e82af10!2sDos%20Mas!5e0!3m2!1sen!2sus!4v1671220374408!5m2!1sen!2sus"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </section>
+    </div>
+    <div class="second-container" id="s-cont">
+      <div class="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2990.274257380938!2d-70.56068388481569!3d41.45496659976631!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e52963ac45bbcb%3A0xf05e8d125e82af10!2sDos%20Mas!5e0!3m2!1sen!2sus!4v1671220374408!5m2!1sen!2sus"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+
+      <div class="s-header">
+        <div class="s-header-cont">
+          <i class="fa-solid fa-arrow-left" id="return"></i>
+          <input type="text" class="destination-receiver" />
+          <i class="fa-solid fa-plus"></i>
+        </div>
+      </div>
+      <div class="s-bottom-fixed-input">
+        <div class="select-car">
+          <div class="car">
+            <img src="img/boltapp.jpg" alt="" class="bolt-car" />
+            <div class="car-type">
+              <span>Bolt</span>
+              <span>5 mins <i class="fa-solid fa-user"></i> 4</span>
+            </div>
+          </div>
+          <div class="r-side-select">
+            <span>₦1700-2100</span>
+            <span class="line-t">₦1900-2300</span>
+          </div>
+        </div>
+        <div class="select-car">
+          <div class="car">
+            <img src="img/boltapp.jpg" alt="" class="bolt-car" />
+            <div class="car-type">
+              <span>Business</span>
+              <span>5 mins <i class="fa-solid fa-user"></i> 4</span>
+            </div>
+          </div>
+          <div class="r-side-select">
+            <span>₦1900-2300</span>
+            <span class="line-t">₦2000-2400</span>
+          </div>
+        </div>
+        <div class="select-car">
+          <div class="car">
+            <img src="img/boltapp.jpg" alt="" class="bolt-car" />
+            <div class="car-type">
+              <span>Economy</span>
+              <span>5 mins <i class="fa-solid fa-user"></i> 4</span>
+            </div>
+          </div>
+          <div class="r-side-select">
+            <span>₦1000-1200</span>
+            <span class="line-t">₦1100-1500</span>
+          </div>
+        </div>
+      </div>
+      <div class="s-cont-final-fixed">
+        <div class="final-one">
+          <div class="cash">
+            <i class="fa-solid fa-money-bill"></i>
+            <span>Cash <i class="fa-solid fa-chevron-down"></i></span>
+          </div>
+          <span>Personal trip</span>
+        </div>
+        <div class="final-two">
+          <span>Book Bolt</span>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
